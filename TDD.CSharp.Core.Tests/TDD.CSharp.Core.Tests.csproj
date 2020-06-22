@@ -49,7 +49,7 @@
     <DotNetCliToolReference Include="dotnet-reportgenerator-cli" Version="4.2.15" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Orsted.TDD.CSharp.Core\TDD.CSharp.Core.csproj" />
+    <ProjectReference Include="..\TDD.CSharp.Core\TDD.CSharp.Core.csproj" />
   </ItemGroup>
 
 </Project>
