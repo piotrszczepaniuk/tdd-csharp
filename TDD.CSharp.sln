@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.CSharp.Core.Tests", "Orsted.TDD.CSharp.Core.Tests\TDD.CSharp.Core.Tests.csproj", "{D619CA36-0561-4F1F-9AEC-CD66C737F724}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4293E49D-A7CA-44B5-8A17-DCDFA888912A} = {4293E49D-A7CA-44B5-8A17-DCDFA888912A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.CSharp.Core", "Orsted.TDD.CSharp.Core\TDD.CSharp.Core.csproj", "{4293E49D-A7CA-44B5-8A17-DCDFA888912A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{DA16C8FE-6C55-4B43-A900-F0AEE57750AC}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		README.md = README.md
+		RunTestCoverage.bat = RunTestCoverage.bat
+		Orsted.TDD.CSharp.Core.Tests\Examples\Theory\TestData.csv = Orsted.TDD.CSharp.Core.Tests\Examples\Theory\TestData.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D619CA36-0561-4F1F-9AEC-CD66C737F724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D619CA36-0561-4F1F-9AEC-CD66C737F724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D619CA36-0561-4F1F-9AEC-CD66C737F724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D619CA36-0561-4F1F-9AEC-CD66C737F724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4293E49D-A7CA-44B5-8A17-DCDFA888912A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4293E49D-A7CA-44B5-8A17-DCDFA888912A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4293E49D-A7CA-44B5-8A17-DCDFA888912A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4293E49D-A7CA-44B5-8A17-DCDFA888912A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D5FD97-0774-48B9-96CC-FC5BFA7B7758}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Examples\GroupAndSkip\" />
+    <Folder Include="Exercises\After\_04\" />
+    <Folder Include="Exercises\Before\_01\" />
+    <Folder Include="Exercises\Before\_03\" />
+    <Folder Include="Exercises\Before\_04\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Examples\Theory\TestData.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
