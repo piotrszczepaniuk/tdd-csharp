@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace TDD.CSharp.Core.Tests.Exercises.After._03
+
+namespace TDD.CSharp.Core.Tests.Examples.LifeCycleTest
 {
     public class BeforeAllTestsFixture : IDisposable
     {

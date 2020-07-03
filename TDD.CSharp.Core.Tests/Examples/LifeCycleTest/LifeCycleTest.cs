@@ -2,8 +2,7 @@
 using System;
 using Xunit;
 using Xunit.Abstractions;
-
-namespace TDD.CSharp.Core.Tests.Exercises.After._03
+namespace TDD.CSharp.Core.Tests.Examples.LifeCycleTest
 {
     [Collection("BeforeAll collection")]
     public class LifeCycleTest : IDisposable

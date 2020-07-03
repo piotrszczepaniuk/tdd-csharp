@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace TDD.CSharp.Core.Tests.Exercises.After._04
+namespace TDD.CSharp.Core.Tests.Exercises.After._03
 {
 public class AssertionTest
 {

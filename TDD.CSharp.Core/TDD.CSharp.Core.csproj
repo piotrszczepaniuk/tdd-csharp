@@ -9,10 +9,8 @@
 
   <ItemGroup>
     <Folder Include="Examples\GroupAndSkip\" />
-    <Folder Include="Exercises\After\_04\" />
     <Folder Include="Exercises\Before\_01\" />
     <Folder Include="Exercises\Before\_03\" />
-    <Folder Include="Exercises\Before\_04\" />
   </ItemGroup>
 
   <ItemGroup>

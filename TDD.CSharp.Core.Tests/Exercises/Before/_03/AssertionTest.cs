@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace TDD.CSharp.Core.Tests.Exercises.Before._04
+namespace TDD.CSharp.Core.Tests.Exercises.Before._03
 {
 public class AssertionTest
 {
