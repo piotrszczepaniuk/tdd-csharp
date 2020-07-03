@@ -27,7 +27,7 @@ namespace TDD.CSharp.Core.Tests.Examples.Theory
         {
             get 
             {
-                var lines = File.ReadAllLines(@"Examples\Theory\TestData.csv");
+                var lines = File.ReadAllLines(@"Examples/Theory/TestData.csv");
 
                 return lines.Select(line => line.Split(',').Cast<object>().ToArray()).ToList();
             }
