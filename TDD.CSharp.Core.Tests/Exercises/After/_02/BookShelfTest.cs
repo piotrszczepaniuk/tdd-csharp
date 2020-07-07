@@ -58,11 +58,11 @@ namespace TDD.CSharp.Core.Tests.Exercises.After._02
         public void ShouldAllowedToAddMultipleBooksAtOnce()
         {
             //Given
-            string[] addedBoooks = new string[] { "xUnit Test Patterns", "Code Complete" };
+            string[] addedBooks = new string[] { "xUnit Test Patterns", "Code Complete" };
             //When
-            _shelf.Add(addedBoooks);
+            _shelf.Add(addedBooks);
             //Then
-            Assert.Equal(addedBoooks, _shelf.GetAllBooks());
+            Assert.Equal(addedBooks, _shelf.GetAllBooks());
 
         }
 
